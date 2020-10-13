@@ -1,0 +1,118 @@
+/* 
+    Created on : 5/15/2019
+    Author     : Stephen LaFrankie
+*/
+
+/* Set a style for all buttons */
+button {
+  background-color: #990033;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* All Buttons w/Hovering change color */
+button:hover {
+    opacity: 0.3;
+}
+
+/* Add padding to container that holds the user and password input */
+.boxcontainer {
+  padding: 16px;
+}
+
+/* specifies measurements and space of div with class content */
+.content {
+    margin: auto;
+    width: 75%;
+}
+
+/* errors will be in red in small font */
+.errors {
+  color:red;
+  font-size: 12px;
+}
+
+/* General Form Outline */
+form {
+  margin: auto;
+  width: 50%;
+  border: 3px solid #f0f0f5;
+}
+
+/* Footer */
+.footer {
+    margin: auto;
+    width: 50%;
+}
+
+/* errors displayed in the footer will be red with a 24 point font */
+.footer #errors {
+    color: red;
+    font-size: 24px;
+}
+
+/* Header */
+.header {
+    margin: auto;
+    width: 50%;
+    padding: 12px 20px;
+}
+
+/* Design of both input areas */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Used with the inventory page */
+
+/* Table formats the area and border of the table*/
+.inventory table {
+    border: 3px solid #f0f0f5;
+    padding: 5px;
+    width: 100%;
+}
+
+/* Table header text color and background color */
+.inventory table th {
+    color: white;
+    background-color: #990033;
+}
+
+/* Table row format of every even numbered table row */
+.inventory table tr:nth-child(even) {
+    background-color: #f2f2f2;
+    color: black;
+}
+
+/* Table rows change color when cursor is placed over them*/
+.inventory table tr:hover {
+    background-color: #FD9FBE;
+    color: white;
+}
+
+/* Header prompt in main index page */
+.please {
+    font-size: 24px;
+}
+
+/* Header in main index page */
+.welcome {
+    font-size: 32px;
+}
+
+/* Change the button color when page is small or on other device */
+@media ( max-width: 400px) {
+    button {
+        background-color: black;
+        color: white;
+    }
+}
